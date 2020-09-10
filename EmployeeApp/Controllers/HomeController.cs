@@ -33,5 +33,9 @@ namespace EmployeeApp.Controllers
         {
             return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
         }
+        private string DoSomething()
+        {
+            return "Welcome to Home";
+        }
     }
 }

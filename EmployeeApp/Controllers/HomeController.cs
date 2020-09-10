@@ -35,11 +35,15 @@ namespace EmployeeApp.Controllers
         }
         private string DoSomething()
         {
-            return "Welcome to Home";
+            return "Welcome to Home of MVC";
         }
         private string DoThat()
         {
             return "Do that";
+        }
+        private int GetCount()
+        {
+            return 25;
         }
     }
 }

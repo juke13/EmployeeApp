@@ -37,5 +37,9 @@ namespace EmployeeApp.Controllers
         {
             return "Welcome to Home";
         }
+        private string DoThat()
+        {
+            return "Do that";
+        }
     }
 }
